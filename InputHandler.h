@@ -10,11 +10,8 @@ class InputHandler
 public:
 	
 	InputHandler();
-	
 	void handleInput(Uint32 pInput);
 	
-
-
 
 private:
 	MacroCommand *_macro;
